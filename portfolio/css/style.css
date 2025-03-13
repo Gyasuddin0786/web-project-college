@@ -1,0 +1,11 @@
+.card:hover .card-body {
+    transition: transform 0.3s ease-in-out;
+    background-color:#04395e;
+    color: white;
+  
+  }
+  
+  .card-body {
+    transition: transform 0.3s ease-in-out;
+  }
+  

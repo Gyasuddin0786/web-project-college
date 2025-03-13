@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="jquery.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.accordion').click(function () {
+        $(this).toggleClass('active');
+        $(this).next('.panel').slideToggle(300);
+      });
+    });
+  </script>
+  <style>
+    .accordion {
+      background-color: black;
+      color: #fff;
+      cursor: pointer;
+      padding: 15px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 16px;
+    }
+
+    .active,
+    .accordion:hover {
+      background-color: #068d21;
+    }
+
+    .accordion:after {
+      content: '\002B';
+      color: #fff;
+      font-weight: bold;
+      float: right;
+      margin-left: 5px;
+    }
+
+    .active:after {
+      content: "\2212";
+    }
+
+    .panel {
+      padding: 0 18px;
+      background-color: white;
+      display: none;
+      overflow: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>FAQ Accordion</h2>
+
+  <button class="accordion">Question 1</button>
+  <div class="panel">
+    <p>Answer 1</p>
+  </div>
+
+  <button class="accordion">Question 2</button>
+  <div class="panel">
+    <p>Answer 2</p>
+  </div>
+
+  <button class="accordion">Question 3</button>
+  <div class="panel">
+    <p>Answer 3</p>
+  </div>
+</body>
+
+</html>

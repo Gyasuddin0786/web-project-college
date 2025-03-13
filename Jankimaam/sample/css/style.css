@@ -1,0 +1,12 @@
+.nav-item a.active {
+    color: aqua !important;
+
+}
+
+.error {
+    color: red;
+}
+
+#navbar_top div a:hover{
+    color: red;
+}

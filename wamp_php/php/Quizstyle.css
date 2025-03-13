@@ -1,0 +1,193 @@
+/* html container section here */
+.container-html{
+    margin-left: 25rem;
+    width: 40rem;
+    height: 42rem;
+    background-color: darkgray;
+    text-align: left;
+    margin-top: 8rem;
+    border-radius: .4rem;
+    border-color: orange;
+    align-items: center;
+
+}
+#navbar:hover{
+    color: red;
+}
+#Quiz-logo{
+    color: aqua;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.container-html h2{
+    margin-left: 14rem;
+    padding-top: 2rem;
+    color: aqua;
+}
+
+.header{
+    margin-top: 0rem;
+    border-bottom: 2rem;
+    border-color: white;
+    cursor: pointer;
+}
+.container-html h4{
+    margin-left: 2.2rem;
+    color: black;
+    font-size: 1.1rem;
+}
+.container-html input{
+    margin-left: 2.5rem;
+
+}
+
+#btn{
+    margin-left: 15 rem;
+    width: 10rem;
+    height: 2.5rem;
+    background-color: blue;
+    color: white;
+    margin-top: 2rem;
+    border-radius:.4rem;
+}
+/* html container section end here */
+
+
+
+/* css container section starts here */
+.container-css{
+    margin-left: 25rem;
+    width: 40rem;
+    height: 50rem;
+    background-color: darkgray;
+    text-align: left;
+    margin-top: 8rem;
+    border-radius: .4rem;
+    border-color: orange;
+    align-items: center;
+
+}
+
+.container-css h2{
+    margin-left: 14rem;
+    padding-top: 2rem;
+    color: aqua;
+}
+.header{
+    margin-top: 0rem;
+    border-bottom: 2rem;
+    border-color: white;
+}
+a {
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#navbar li a:hover {
+    color: aqua;
+}
+.container-css h4{
+    margin-left: 2.2rem;
+    color: black;
+    font-size: 1.1rem;
+}
+.container-css input{
+    margin-left: 2.5rem;
+    color: blue;
+
+}
+#btn{
+    margin-left: 15rem;
+    width: 10rem;
+    height: 2.5rem;
+    background-color: blue;
+    color: white;
+    margin-top: 2rem;
+    border-radius:.4rem;
+}
+
+
+.active{
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    
+}
+#active{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+/* login page starts here */
+.container{
+    width: 30rem;
+    height: 32rem;
+    background-color: aquamarine;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    padding-top: 3rem;
+    border-radius: .5rem;
+}
+.container .box label{
+    margin-right: 17.8rem;
+    font-size: 1.2rem;
+    color: black;
+    
+}
+.container .box input{
+    width: 23rem;
+    height: 2.5rem;
+    border-radius: .5rem;
+    border-color: aqua;
+}
+.container .box .checkbox{
+    width: 1.2rem;
+    height: 1.6rem;
+    margin-right: 8.3rem;
+    margin-top: .5rem;
+    border-color: aqua;
+}
+.iconbox .heading{
+    width: 8rem;
+    height: 5rem;
+    background-color:white;
+    border-radius: 50%;
+    margin-left: 10rem;
+}
+.iconbox .heading #user{
+    width: 8rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin-top: .1rem;
+    filter: none;
+    background-color: white;
+}
+.button{
+    width: 22.5rem;
+    height: 2.3rem;
+    margin-top: 1.4rem;
+    margin-bottom: 1.3rem;
+    background-color:rgba(255, 255, 0, 0.655);
+    color: black;
+    border-radius: .5rem;
+    border-color:darkgray;
+}
+ #forget{
+    margin-right: 1.2rem;
+    color: black;
+}
+#forget a:hover {
+    color:red;
+}
+
+#signup{
+    color: black;
+    font-size: 1.0rem;
+}
+
+.error{
+    color: red;
+    font-size: 1.1rem;
+}

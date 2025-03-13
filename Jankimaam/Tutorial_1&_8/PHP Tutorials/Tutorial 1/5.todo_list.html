@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <style>
+        body {
+            margin: 20px;
+        }
+    </style>
+    <script src="jquery.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#form1').submit(function (e) {
+                e.preventDefault();
+                var task = $('#task1').val().trim();
+                display_html = '<table border="2">';
+                // alert(task);
+                if (task != "") {
+                    var display_html = "<tr class='task_detail'> <td>" + task +
+                        "</td><td><input type='button' value='completed' class='btn btn-primary' id='complete_btn'></td><td><input type='button' id='del_btn' value='Delete' class='btn btn-danger'></td></tr>"
+                }
+                $('#task-list').append(display_html);
+                $('#task1').val('');
+            });
+
+            $(document).on('click', '#del_btn', function () {
+                $(this).closest('tr').remove();
+            });
+
+            $(document).on('click', '#complete_btn', function () {
+                $(this).closest('tr').css('text-decoration', 'line-through');
+            })
+
+        });
+    </script>
+    <style>
+        td {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>To-Do List</h2>
+    <form id="form1">
+        <input type="text" id="task1" placeholder="Add task">
+        <input type="submit" value="add">
+    </form>
+    <br>
+    <br>
+    <div id="task-list"></div>
+</body>
+
+</html>

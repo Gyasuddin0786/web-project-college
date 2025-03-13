@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="jquery.js">
+
+  </script>
+  <script>
+    $(document).ready(function () {
+      $('div').click(function () {
+        $bgcolor = $(this).css('background-color');
+        $('body').css('background-color', $bgcolor);
+      })
+    });
+  </script>
+
+  <style>
+    .color_select {
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      border: 3px solid white;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="color_select" style="background-color:red ;"></div>
+  <div class="color_select" style="background-color: green;"></div>
+  <div class="color_select" style="background-color: yellow;"></div>
+  <div class="color_select" style="background-color:blue ;"></div>
+  <div class="color_select" style="background-color:pink ;"></div>
+  <div class="color_select" style="background-color:coral ;"></div>
+  <div class="color_select" style="background-color: lightcyan;"></div>
+  <div class="color_select" style="background-color:lightgreen ;"></div>
+  <div class="color_select" style="background-color: lightgray;"></div>
+  <div class="color_select" style="background-color:lightslategray ;"></div>
+  <div class="color_select" style="background-color:magenta ;"></div>
+  <div class="color_select" style="background-color: yellowgreen;"></div>
+  <div class="color_select" style="background-color: cyan;"></div>
+  <div class="color_select" style="background-color:lightgoldenrodyellow ;"></div>
+  <div class="color_select" style="background-color:lightskyblue;"></div>
+  <div class="color_select" style="background-color:lightseagreen ;"></div>
+  <div class="color_select" style="background-color: lightsalmon;"></div>
+  <div class="color_select" style="background-color:rgb(21, 110, 21) ;"></div>
+  <div class="color_select" style="background-color: rgb(76, 64, 146);"></div>
+  <div class="color_select" style="background-color:rgb(202, 44, 147) ;"></div>
+</body>
+
+</html>

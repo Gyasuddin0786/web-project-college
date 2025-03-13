@@ -1,0 +1,262 @@
+/*
+Theme Name: Education Academy Coach
+Theme URI: https://www.ovationthemes.com/products/free-academy-wordpress-theme
+Author: pewilliams
+Author URI: https://www.ovationthemes.com/
+Description: Educational Academy Coach is a theme for educational websites and learning management systems. It is also suitable for lms, course hubs, training centers, colleges, academies, schools, universities, kindergartens mentors, web-based applications, education, academy, coaching, tutoring, learning, mentorship, training, workshops, seminars, online courses, academic support, career guidance, e-learning, student success, professional development or course-selling platforms. The theme we have designed for colleges and schools is the perfect choice for you. We created this theme to re-design your site and make it appear stunning. You’ll need an attractive theme to present your school and all else you have to provide. Students spend many hours researching colleges and courses they would like to enroll in. It’s important to select attractive themes and help them find the information they are searching for. A slow-loading theme can slow down and even cause your number of visitors to drop; however, when you use our theme, you’ll never experience this issue. The theme is completely adaptive and multi-purpose. It’s designed to be extremely responsive across all browsers and platforms. This guarantees high-quality performance and ensures that your customers will not have a bad experience using the theme. Additionally, the theme comes loaded with the most powerful features essential to an online business, such as CTA, Bootstrap, retina capability, user-friendly design and responsiveness, customization options, and social media integration SEO friendly. Demo: https://trial.ovationthemes.com/education-academy-coach/
+Version: 4.0
+Requires PHP: 5.6
+Tested up to: 6.6
+Requires at least: 5.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: education-academy-coach
+Template: education-insight
+Tags: one-column, two-columns, three-columns, four-columns, right-sidebar, left-sidebar, grid-layout, full-width-template, sticky-post, block-styles, custom-colors, custom-background, custom-header, custom-menu, custom-logo, editor-style, featured-images, flexible-header, featured-image-header, footer-widgets, threaded-comments, wide-blocks, post-formats, blog, education, e-commerce
+
+Education Academy Coach WordPress Theme, Copyright 2022 pewilliams
+Education Academy Coach is distributed under the terms of the GNU GPL
+
+Education Academy Coach WordPress Theme is child theme of Education Insight WordPress Theme, Copyright 2022 pewilliams
+Education Insight WordPress Theme is distributed under the terms of the GNU GPL
+*/
+body,h1,h2,h3,h4,h5,h6,.logo h1, .site-title, .site-title a{
+    font-family: 'Mulish', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 800 !important;
+    letter-spacing: 0;
+}
+:root {
+    --theme-primary-color:#21ad95;
+    --theme-heading-color:#17191b;
+    --theme-primary-fade:#edf5f4;
+    --theme-secondary-color:#ef5921;
+}
+/*color-change*/
+.error-404 .home-btn a,
+.scrollup,.top_header,.slide-btn a,
+.wc-block-cart__submit-container a,a.added_to_cart.wc-forward ,.single-tags a:hover,
+.gb_nav_menu ul ul,.scrollup,.scrollup.is-active:hover, .scrollup.is-active:focus,
+#sidebar .tagcloud a:hover,.site-info, .site-footer .tagcloud a:hover,.admision-btn a:hover,
+hr.down,#slider .carousel-control-next-icon, #slider .carousel-control-prev-icon,
+.middle-sec-inner,.woocommerce ul.products li.product .onsale, .woocommerce span.onsale,
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, 
+.woocommerce input.button, .woocommerce #respond input#submit.alt, 
+.woocommerce a.button.alt, .woocommerce button.button.alt,
+.woocommerce input.button.alt,button, input[type="button"], input[type="submit"],
+.site-footer .search-form .search-submit,.prev.page-numbers, .next.page-numbers,
+.page-numbers.current,button.search-submit,nav.woocommerce-MyAccount-navigation ul li,
+.home-btn a,.top_header{
+    background: var(--theme-primary-color);
+}
+.box-inner h5{
+    color: var(--theme-primary-color);
+}
+nav.woocommerce-MyAccount-navigation ul li:hover,
+.gb_nav_menu ul ul a:hover,
+#slider .carousel-control-next-icon:hover, 
+#slider .carousel-control-prev-icon:hover,
+.error-404 .home-btn a:hover ,.prev.page-numbers:focus, 
+.prev.page-numbers:hover, .next.page-numbers:focus, .next.page-numbers:hover,
+button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, 
+input[type="submit"]:hover, input[type="submit"]:focus,.wc-block-cart__submit-container a:hover,
+.woocommerce a.button:hover, 
+.woocommerce button.button:hover, .woocommerce input.button:hover, 
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, 
+.woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, 
+a.added_to_cart.wc-forward:hover,.woocommerce #respond input#submit:hover, 
+#slider .carousel-control-next-icon:hover, 
+#slider .carousel-control-prev-icon:hover,.admision-btn a{
+    background: var(--theme-secondary-color);
+}
+.links i:hover,.mid-inner-box1, .mid-inner-box2, .mid-inner-box3, .mid-inner-box4{
+    background: var(--theme-secondary-color) !important;
+}
+a.more-link:hover{
+    color: var(--theme-secondary-color);
+}
+.gb_nav_menu li a,.page-template-custom-home-page .gb_nav_menu li a,
+.gb_nav_menu li.page_item_has_children:after,
+.gb_nav_menu li.menu-item-has-children:after,
+.page-template-custom-home-page .gb_nav_menu li.page_item_has_children:after, 
+.page-template-custom-home-page .gb_nav_menu li.menu-item-has-children:after,
+.withoutimg-date-box,
+.page-template-custom-home-page .site-title, .page-template-custom-home-page .site-title a, 
+.page-template-custom-home-page .logo h1 a, .page-template-custom-home-page .logo p{
+    color: #17191b;
+}
+.bread_crumb .without-img a, .bread_crumb .without-img{
+    color: #17191b !important;
+}
+.withoutimg span{
+    border-color: #17191b;
+}
+#loader:before{
+   border-top-color: #17191b; 
+}
+.spinner > div{
+    background-color: #17191b;
+}
+.site-footer .tagcloud a:hover,.links i:hover,
+.gb_nav_menu ul ul a,
+.page-template-custom-home-page .gb_nav_menu ul ul a{
+    color: #fff;
+}
+#slider ,.page-template-custom-home-page .wrap_figure{
+    background: #fff;
+}
+#slider img{
+    opacity: 1;
+}
+.page-template-custom-home-page .logo{
+    background: transparent;
+}
+/* Accessibility */
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+  outline: 0;
+}
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+    padding: 2px;
+}
+.top_header {
+    text-align: left;
+    font-size: 16px;
+}
+.links,.admision-btn,.gb_navigation {
+    text-align: right;
+}
+.links i,.top_header a,.admision-btn{
+	margin: 0;
+}
+span.account {
+    margin-left: 15px;
+}
+.logo {
+    text-align: left;
+    position: static;
+    padding: 0;
+    width: auto;
+    border-radius: 0;
+    background: transparent;
+}
+.page-template-custom-home-page .fixed .logo {
+    background: transparent !important;
+}
+.gb_nav_menu li a {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0;
+}
+.admision-btn a,.slide-btn a {
+    padding: 15px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.links i{
+    background: #fff !important;
+    color: #17191b;
+    padding: 10px 0;
+    font-size: 12px;
+}
+#course-cat .box,#course-cat .box h4{
+    padding: 0;
+}
+#course-cat{
+    text-align: left;
+}
+.box-inner h5 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+#course-cat .box h4 a {
+    color: #403b66;
+    font-size: 22px;
+    font-weight: 700;
+}
+#course-cat .box {
+    box-shadow: 0 0 15px 5px #dfdfdf;
+}
+.middle-sec-inner h4 a,.middle-sec-box h3 a{
+    font-weight: bold;
+}
+@media screen and (max-width : 1199px) and (min-width : 992px){
+    .admision-btn a{
+        padding: 8px;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:991px){
+    .logo{
+        padding: 15px 0;
+    }
+    .gb_navigation{
+        text-align: left;
+    }
+    .gb_nav_menu ul ul{
+        background: transparent !important;
+    }
+}
+@media screen and (max-width:782px){
+    .fixed_header.fixed{
+        background: transparent !important;
+    }
+}
+@media screen and (max-width:767px){
+    .admision-btn a{
+        padding: 15px 8px;
+        font-size: 12px;
+    }
+    .top_header,.links{
+        text-align: center;
+    }
+}
+@media screen and (max-width:575px){
+    #slider .carousel-control-next-icon, #slider .carousel-control-prev-icon,#slider .carousel-control-next-icon:hover, #slider .carousel-control-prev-icon:hover{
+        padding: 0;
+        background: transparent;
+        width: auto;
+        height: auto;
+    }
+    .logo,.admision-btn{
+        text-align: center;
+    }
+}

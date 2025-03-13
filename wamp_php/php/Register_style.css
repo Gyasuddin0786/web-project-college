@@ -1,0 +1,64 @@
+/* Register stylesheet css starts */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 8rem;
+    text-align: center;
+    background-color: darkgrey;
+    width: 50rem;
+    height: 43.5rem;
+    border-radius: 8px;
+    background-position: fixed;
+    border-style: groove;
+    box-sizing: border-box;
+    border-color: black;
+}
+.header .nav a:hover{
+    color:red;
+}
+
+.container label{
+    margin-right: 10.2rem;
+}
+.container label span{
+    margin-right: 10.2rem;
+    font-size: 1.5rem;
+    color: red;
+}
+
+#label{
+    margin-right: 30.9rem;
+}
+.container h2{
+    margin-bottom: 3rem;
+    color:blue;
+    font-size: 2.5rem;
+}
+#submit{
+    width: 8rem;
+    height: 2.5rem;
+    background-color:dodgerblue;
+    color:azure;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+#reset{
+    background-color: rgba(255, 0, 0, 0.738);
+    width: 8rem;
+    height: 2.5rem;
+    color:azure;
+    text-align: center;
+    margin-bottom: 3rem;
+
+}
+.form-label{
+    color: black;
+}
+.error{
+    color: red;
+    font-size: 14px;
+}
+/* Register stylesheet css ends */

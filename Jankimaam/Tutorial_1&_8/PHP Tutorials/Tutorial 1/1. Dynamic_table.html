@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#btn_gen_tab').click(function () {
+                var rows = $('#r1').val();
+                var cols = $('#c1').val();
+                x = "<table class='table table-striped' border='1'><tbody>";
+
+                for (var i = 1; i <= rows; i++) {
+                    x = x + "<tr>";
+                    for (var j = 1; j <= cols; j++) {
+                        x = x + "<td>" + j + "</td>";
+                    }
+                    x = x + "</tr>";
+                }
+                x = x + "</tbody></table>";
+                $('#p1').append(x);
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <h1>hello</h1>
+    <form action="">
+        Enter Rows: <input type="text" name="r" id="r1">
+        <br>Enter Columns: <input type="text" name="c" id="c1">
+        <br><input type="button" value="Generate Table" id="btn_gen_tab">
+    </form>
+    <p id="p1"></p>
+
+</body>
+
+</html>
